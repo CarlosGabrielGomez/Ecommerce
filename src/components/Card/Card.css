@@ -1,0 +1,35 @@
+.Card {
+  padding: 1%;
+  border: groove 1em black;
+  border-radius: 2em;
+}
+
+.btn {
+  width: 50%;
+  
+}
+
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 50%;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+    /* flex: 100%;
+     max-width: 100%; */
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+.img-fluid {
+  padding: 2%;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}

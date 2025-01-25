@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Customfont";
+  src: url("../src/fonts/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Customfont";
+  box-sizing: border-box;
+  font-size: 1.5vw;
+}
+
+:root {
+  --color-negro: rgba(0, 0, 0, 0.6);
+  --color-dorado: #ffd700;
+  --color-azul: rgba(0, 0, 139, 0.4);
+}
+
+body {
+  width: 100%;
+  height: 1000px;
+}
