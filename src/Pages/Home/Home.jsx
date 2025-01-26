@@ -13,14 +13,13 @@ const Home = () => {
         setProducts(data);
       });
   }, []);
-
+  const cont = products.length;
   return (
     <>
       <Layout>
-        <h2>A continuacion vemos el listao de productos </h2>
+        <h2 className="text-center mt-4 mb-4">Existe {cont} productos en stock </h2>
         <article>
           {products.map((product) => {
-            // { image, }
             return (
               <>
                 <Card

@@ -1,4 +1,5 @@
 import "./Header.css";
+
 // import {NavBar}  from  "bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
@@ -10,9 +11,9 @@ const Header = () => {
         {/* <nav className="navbar navbar-expand-lg bg-body-tertiary"> */}
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" href="#">
             <img className='img-navbar' src="../../src/assets/zapato.png" alt="" />
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"

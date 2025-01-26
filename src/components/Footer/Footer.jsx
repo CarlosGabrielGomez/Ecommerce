@@ -2,11 +2,11 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer ">
+    <footer className="footer">
       <div className="footer-content ">
-        <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Curso-React-Mi Ecommerce</p>
         <nav className=" bg-dark">
-          <ul>
+          {/* <ul>
             <li>
               <a href="/about">Acerca de</a>
             </li>
@@ -16,7 +16,7 @@ const Footer = () => {
             <li>
               <a href="/privacy">Política de privacidad</a>
             </li>
-          </ul>
+          </ul> */}
         </nav>
       </div>
     </footer>
